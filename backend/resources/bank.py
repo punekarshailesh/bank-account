@@ -3,10 +3,10 @@ from flask_smorest import Blueprint, abort
 from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 
 from db import db
-from models.car import Branch
-from models.car import SavingAccountModel, CurrentAccountModel
-from models.car import CustomerModel
-from models.car import VerificationLogModel
+from models.bank import Branch
+from models.bank import SavingAccountModel, CurrentAccountModel
+from models.bank import CustomerModel
+from models.bank import VerificationLogModel
 
 from schemas import BranchSchema
 from schemas import SavingAccountSchema

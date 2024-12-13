@@ -2,8 +2,8 @@ from flask import Flask, jsonify
 from flask_smorest import Api
 from flask_cors import CORS
 from db import db
-from resources.car import blp as BranchBlueprint
-# from resources.car import blp as CustomerBlueprint
+from resources.bank import blp as BranchBlueprint
+# from resources.bank import blp as CustomerBlueprint
 
 app = Flask(__name__)
 app.config["API_TITLE"] = "Bank Account Opening REST API"
