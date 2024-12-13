@@ -8,11 +8,11 @@ from models.car import SavingAccountModel, CurrentAccountModel
 from models.car import CustomerModel
 from models.car import VerificationLogModel
 
-from schemas.branch_schema import BranchSchema
-from schemas.saving_account_schema import SavingAccountSchema
-from schemas.current_account_schema import CurrentAccountSchema
-from schemas.customer_schema import CustomerSchema
-from schemas.verification_log_schema import VerificationLogSchema
+from schemas import BranchSchema
+from schemas import SavingAccountSchema
+from schemas import CurrentAccountSchema
+from schemas import CustomerSchema
+from schemas import VerificationLogSchema
 
 blp = Blueprint("BankOperations", __name__, description="Operations on bank entities")
 
